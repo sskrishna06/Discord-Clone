@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>Discord | Your Place to Talk and Hang Out</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" >
-</head>
-<body>
-
-    <div class="bg-[#404edd]">
-        <nav class="text-white flex justify-between max-w-[1200px] items-center mx-auto h-[72px] xl:px-0 px-7">
-            <img src="./images/logo.svg" alt="logo" class="">
-            <ul class="flex ">
-                <li>Download</li>
-                <li>Nitro</li>
-                <li>Discover</li>
-                <li>Safety</li>
-                <li>SUpport</li>
-                <li>Blog</li>
-                <li>Carrers</li>
-            </ul>
-            <button>Log in</button>
-        </nav>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div class="bg-[#404edd] font-serif">
+      <nav
+        class="text-white flex justify-between max-w-[1200px] items-center mx-auto h-[72px] xl:px-0 px-7"
+      >
+        <!-- logo -->
+        <div>
+          <img src="./images/logo.svg" alt="logo" class="" />
+        </div>
+        <!-- navbar options -->
+        <div class="hidden xl:flex gap-5 font-[16px]">
+          <a href="#" class="capitalize hover:underline">Download</a>
+          <a href="#" class="capitalize hover:underline">Nitro</a>
+          <a href="#" class="capitalize hover:underline">Discover</a>
+          <a href="#" class="capitalize hover:underline">Safety</a>
+          <a href="#" class="capitalize hover:underline">Support</a>
+          <a href="#" class="capitalize hover:underline">Blog</a>
+          <a href="#" class="capitalize hover:underline">Carrers</a>
+        </div>
+        <!-- button  -->
+        <div class="hidden xl:flex">
+          <a href="#">
+            <button
+              class="bg-white rounded-full p-2 px-4 self-center text-[#2c2f33] font-[500] text-[14px]"
+            >
+              Open Discord
+            </button>
+          </a>
+        </div>
+        <!-- hamburger -->
+        <div class="xl:hidden block">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
     </div>
-    
-</body>
+    <script
+      src="https://kit.fontawesome.com/40fbde40be.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
